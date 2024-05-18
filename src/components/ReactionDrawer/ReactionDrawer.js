@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from 'react';
-import {SvgDrawer} from './SvgDrawer';
-import {SvgWrapper} from './SvgWrapper';
-import {ThemeManager} from './ThemeManager';
+import {SvgDrawer} from './SvgDrawer/SvgDrawer';
+import {SvgWrapper} from './SvgWrapper/SvgWrapper';
+import {ThemeManager} from './ThemeManager/ThemeManager';
 import {formulaToCommonName} from './FormulaToCommonName/FormulaToCommonName';
 
-const ReactionDrawer = ({ options, moleculeOptions }) => {
+export const ReactionDrawer = ({ options, moleculeOptions }) => {
     const svgRef = useRef(null);
     const drawer = useRef(null);
     const themeManager = useRef(null);

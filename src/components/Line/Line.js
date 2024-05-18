@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Vector2 from './Vector2/Vector2';
 
-function Line(props) {
+export const Line = (props) => {
     const [from, setFrom] = useState(new Vector2(0, 0));
     const [to, setTo] = useState(new Vector2(0, 0));
     const [elementFrom, setElementFrom] = useState(null);
