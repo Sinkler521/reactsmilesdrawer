@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
-import {SvgDrawer} from './SvgDrawer/SvgDrawer';
-import {SvgWrapper} from './SvgWrapper/SvgWrapper';
-import {ThemeManager} from './ThemeManager/ThemeManager';
-import {formulaToCommonName} from './FormulaToCommonName/FormulaToCommonName';
+import {SvgDrawer} from '../SvgDrawer/SvgDrawer';
+import {SvgWrapper} from '../SvgWrapper/SvgWrapper';
+import {ThemeManager} from '../ThemeManager/ThemeManager';
+import {formulaToCommonName} from '../FormulaToCommonName/FormulaToCommonName';
 
 export const ReactionDrawer = ({ options, moleculeOptions }) => {
     const svgRef = useRef(null);

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Vector2 from './Vector2/Vector2';
+import Vector2 from '../Vector2/Vector2';
 
 export const Line = (props) => {
     const [from, setFrom] = useState(new Vector2(0, 0));

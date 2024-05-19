@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Drawer = ({ options }) => {
+export const Drawer = ({ options }) => {
     const svgDrawerRef = useRef(null);
   
     useEffect(() => {

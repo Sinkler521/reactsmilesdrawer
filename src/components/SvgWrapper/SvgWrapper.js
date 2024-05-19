@@ -1,9 +1,9 @@
 import React from 'react';
-import {getChargeText} from './UtilityFunctions/UtilityFunctions'
+import {getChargeText} from '../UtilityFunctions/UtilityFunctions'
   
-import {Line} from './Line/Line';
-import {Vector2} from './Vector2/Vector2';
-import {MathHelper} from './MathHelper/MathHelper';
+import {Line} from '../Line/Line';
+import {Vector2} from '../Vector2/Vector2';
+import {MathHelper} from '../MathHelper/MathHelper';
   
 export const makeid = (length) => {
     let result = '';

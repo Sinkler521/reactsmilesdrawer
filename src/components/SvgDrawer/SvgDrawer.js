@@ -1,10 +1,8 @@
 import React from 'react';
-import { DrawerBase } from './DrawerBase/DrawerBase';
-import { Graph } from './Graph/Graph';
-import { SvgWrapper } from './SvgWrapper/SvgWrapper';
-import { ThemeManager } from './ThemeManager/ThemeManager';
-import { Vector2 } from './Vector2/Vector2';
-import { GaussDrawer } from './GaussDrawer/GaussDrawer';
+import { DrawerBase } from '../DrawerBase/DrawerBase';
+import { SvgWrapper } from '../SvgWrapper/SvgWrapper';
+import { ThemeManager } from '../ThemeManager/ThemeManager';
+import { Vector2 } from '../Vector2/Vector2';
 
 export const SvgDrawer = (options, clear = true) => {
     const preprocessor = new DrawerBase(options);

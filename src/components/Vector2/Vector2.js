@@ -1,4 +1,4 @@
-function Vector2(props) {
+export const Vector2 = (props) => {
     const [x, setX] = useState(0);
     const [y, setY] = useState(0);
 
